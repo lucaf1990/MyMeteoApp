@@ -1,4 +1,4 @@
-import { Col, Card, Button, Row } from "react-bootstrap";
+import { Col, Card, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import NotFound from "./NotFound";
@@ -10,7 +10,6 @@ const DetailsSearchCard = () => {
   const [specificCity, setSpecificCity] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
-  const [tableBackground, setTableBackground] = useState("");
 
   useEffect(() => {
     const fetchSpecificCity = async () => {
