@@ -24,9 +24,9 @@ a {
 }
 #app {
   background-image: url("https://wallpaperaccess.com/full/164546.jpg");
-  background-position-y: -123px;
-  background-size: cover;
-  height: 100vh;
+
+  background-size: cover !important;
+  height: 100vh !important;
 }
 #description {
   font-size: 1.2em;
